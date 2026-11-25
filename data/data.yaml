@@ -1,0 +1,12 @@
+# Dataset configuration for Hard Hat / Helmet Detection
+# Train, val, test paths relative to dataset root or absolute
+path: ../data  # dataset root dir
+train: images/train
+val: images/val
+test: images/test
+
+# Classes mapping
+names:
+  0: helmet
+  1: head
+  2: person

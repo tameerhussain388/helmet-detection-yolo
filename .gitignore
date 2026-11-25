@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets (Never commit large image dumps or private site photos)
+data/images/
+data/labels/
+data/*.zip
+data/*.tar.gz
+data/raw/
+*.jpg
+*.jpeg
+*.png
+
+# Ultralytics runs & weights
+runs/
+*.pt
+*.onnx
+*.engine
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
